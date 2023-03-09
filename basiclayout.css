@@ -1,5 +1,4 @@
 body {
-    font-family: 'Helvetica';
     background-color:#000000;
   }
   .header{
@@ -18,10 +17,6 @@ body {
     width: 100%; 
     margin-top:9%;
   } 
-
-  .list-view-filter{
-    padding: 0;
-  }
   li {
     list-style: none;
     color: white;
@@ -42,13 +37,12 @@ body {
     display: grid;
     grid-template-columns: 1fr ;
     gap: 1%;
+    padding: 0;
   }
   .list-view-filter h2{
     color: #e17777;
+      width: 70%;
 
-  }
-  .list-view-filter h2{
-    width: 70%;
   }
 
   .list-view-filter li{
